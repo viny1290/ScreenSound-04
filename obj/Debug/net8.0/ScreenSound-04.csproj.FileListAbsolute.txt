@@ -1,0 +1,14 @@
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\bin\Debug\net8.0\ScreenSound-04.exe
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\bin\Debug\net8.0\ScreenSound-04.deps.json
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\bin\Debug\net8.0\ScreenSound-04.runtimeconfig.json
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\bin\Debug\net8.0\ScreenSound-04.dll
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\bin\Debug\net8.0\ScreenSound-04.pdb
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\obj\Debug\net8.0\ScreenSound-04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\obj\Debug\net8.0\ScreenSound-04.AssemblyInfoInputs.cache
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\obj\Debug\net8.0\ScreenSound-04.AssemblyInfo.cs
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\obj\Debug\net8.0\ScreenSound-04.csproj.CoreCompileInputs.cache
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\obj\Debug\net8.0\ScreenSound-04.dll
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\obj\Debug\net8.0\refint\ScreenSound-04.dll
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\obj\Debug\net8.0\ScreenSound-04.pdb
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\obj\Debug\net8.0\ScreenSound-04.genruntimeconfig.cache
+C:\Users\vinij\OneDrive\Área de Trabalho\-\aulas\ScreenSound-04\obj\Debug\net8.0\ref\ScreenSound-04.dll
