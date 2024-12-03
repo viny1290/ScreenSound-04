@@ -2,7 +2,7 @@ using Modelos;
 
 namespace Filtros;
 
-class LingFilter
+class LinqFilter
 {
     public static void FiltrarTodosOsGenerosMusicais(List<Musica> musicas)
     {
