@@ -22,7 +22,9 @@ using (HttpClient client = new HttpClient())
         // LinqOrder.ExibirListaDeArtistasOrdenados(musicas);
 
         // Filtra artistas com base em um gênero musical específico (neste caso, "rock")
-        LinqFilter.FiltrarArtistasPorgeneroMusical(musicas, "rock");
+        //LinqFilter.FiltrarArtistasPorgeneroMusical(musicas, "rock");
+
+        LinqFilter.FiltrarMusicasDeUmArtista(musicas, "Michel Teló");
     }
     catch (Exception ex) // Captura qualquer exceção que ocorrer durante a execução do código
     {
