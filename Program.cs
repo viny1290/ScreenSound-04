@@ -24,7 +24,16 @@ using (HttpClient client = new HttpClient())
         // Filtra artistas com base em um gênero musical específico (neste caso, "rock")
         //LinqFilter.FiltrarArtistasPorgeneroMusical(musicas, "rock");
 
-        LinqFilter.FiltrarMusicasDeUmArtista(musicas, "Michel Teló");
+        //LinqFilter.FiltrarMusicasDeUmArtista(musicas, "Michel Teló");
+
+        var musicasPreferidasDoVinicius = new MusicasPreferidas("Vinicius");
+        musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[1]);
+        musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[377]);
+        musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[13]);
+        musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[6]);
+        musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[1467]);
+
+        musicasPreferidasDoVinicius.ExibirMusicasFavoritas();
     }
     catch (Exception ex) // Captura qualquer exceção que ocorrer durante a execução do código
     {
