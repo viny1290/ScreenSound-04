@@ -4,6 +4,11 @@ namespace Modelos;
 // Classe que representa uma música com suas propriedades e métodos associados
 internal class Musica
 {
+    private string[] tonalidades = {"C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"};
+
+    [JsonPropertyName("Key")]
+    public int Key {get; set; }
+
     // Atributo que corresponde ao nome da música no JSON com a propriedade "song"
     [JsonPropertyName("song")]
     public string? Nome { get; set; }
@@ -20,6 +25,10 @@ internal class Musica
     [JsonPropertyName("genre")]
     public string? Genero { get; set; }
 
+    public string Tonalidade {get{
+        return tonalidades[Key];
+    } }
+
     // Método para exibir os detalhes da música formatados no console
     public void ExibirDetalhesDaMusica()
     {
@@ -31,6 +40,8 @@ internal class Musica
 
         // Exibe o gênero musical
         Console.WriteLine($"Genero musical: {Genero}");
+
+        Console.WriteLine($"Tonalidade: {Tonalidade}");
 
         // Converte a duração de milissegundos para segundos e exibe
         // (Nota: a divisão estava errada no código original, corrigida para 1000)

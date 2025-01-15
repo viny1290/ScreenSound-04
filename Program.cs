@@ -13,6 +13,8 @@ using (HttpClient client = new HttpClient())
         // Desserializa o JSON obtido na lista de objetos 'Musica'
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta)!;
 
+        musicas[1].ExibirDetalhesDaMusica();
+
         // Exemplos de métodos para manipular a lista de músicas utilizando LINQ (comentados ou ativados):
 
         // Filtra todos os gêneros musicais disponíveis na lista de músicas
@@ -26,16 +28,16 @@ using (HttpClient client = new HttpClient())
 
         //LinqFilter.FiltrarMusicasDeUmArtista(musicas, "Michel Teló");
 
-        var musicasPreferidasDoVinicius = new MusicasPreferidas("Vinicius");
-        musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[1]);
-        musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[377]);
-        musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[13]);
-        musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[6]);
-        musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[1467]);
+        //var musicasPreferidasDoVinicius = new MusicasPreferidas("Vinicius");
+        //musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[1]);
+        //musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[377]);
+        //musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[13]);
+        //musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[6]);
+        //musicasPreferidasDoVinicius.AdicionarMusicasFavoritas(musicas[1467]);
 
-        musicasPreferidasDoVinicius.ExibirMusicasFavoritas();
+        //musicasPreferidasDoVinicius.ExibirMusicasFavoritas();
 
-        musicasPreferidasDoVinicius.GerarArquivoJson();
+        //musicasPreferidasDoVinicius.GerarArquivoJson();
     }
     catch (Exception ex) // Captura qualquer exceção que ocorrer durante a execução do código
     {
